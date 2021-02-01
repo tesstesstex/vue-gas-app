@@ -45,9 +45,9 @@ Vue CLI v4.5.11
   Default ([Vue 2] babel, eslint)
   Default (Vue 3 Preview) ([Vue 3] babel, eslint)
 ❯Manually select features
+```
 
-↓
-
+```
 ? Check the features needed for your project: (Press <space> to select, <a> to toggle all, <i> to invert selection)
 ❯◉ Choose Vue version
  ◉ Babel
@@ -59,45 +59,45 @@ Vue CLI v4.5.11
  ◉ Linter / Formatter
  ◯ Unit Testing
  ◯ E2E Testing
+```
 
-↓
-
+```
 ? Choose a version of Vue.js that you want to start the project with
 ❯ 2.x
   3.x (Preview)
+```
 
-↓
-
+```
 ? Pick a linter / formatter config:
   ESLint with error prevention only
   ESLint + Airbnb config
   ESLint + Standard config
 ❯ ESLint + Prettier
+```
 
-↓
-
+```
 ? Pick additional lint features: (Press <space> to select, <a> to toggle all, <i> to invert selection)
 ❯◉ Lint on save
  ◯ Lint and fix on commit
+```
 
-↓
-
+```
 ? Where do you prefer placing config for Babel, ESLint, etc.? (Use arrow keys)
 ❯ In dedicated config files
   In package.json
+```
 
-↓
-
+```
 ? Save this as a preset for future projects? (y/N) n
+```
 
-↓
-
+```
 ? Pick the package manager to use when installing dependencies: (Use arrow keys)
 ❯ Use Yarn
   Use NPM
+```
 
-↓
-
+```
 ✨  Creating project in /Users/user/work/vue-gas-app.
 🗃  Initializing git repository...
 ⚙️  Installing CLI plugins. This might take a while...
@@ -146,13 +146,14 @@ $ yarn serve
 
 ## GoogleAppsScript の用意
 
-以下のリンクからGoogle Apps Script API を｢オン｣にし、新しいプロジェクトを作成しましょう。
-[https://script.google.com/u/1/home/usersettings]
+以下のリンクからGoogle Apps Script API を｢オン｣にしておきましょう。  
+https://script.google.com/u/1/home/usersettings  
 
-
-## clasp 
+GAS のソースコードはclasp というCUI ツールによってローカル環境と同期することができます。  
 
 ```
+$ yarn global add @google/clasp
+
 $ clasp login
 
 $ clasp create vue-gas-app
@@ -164,9 +165,9 @@ $ clasp create vue-gas-app
   forms
 ❯ webapp
   api
+```
 
-↓
-
+```
 Created new webapp script: https://script.google.com/d/<id>/edit
 Warning: files in subfolder are not accounted for unless you set a '.claspignore' file.
 Cloned 1 file.
