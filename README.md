@@ -132,7 +132,7 @@ success Saved lockfile.
  $ yarn serve
 ```
 
-今回は単純なビューのみのアプリを作成するので、Vue Router やVuex は使用しないものとします。    
+今回はVueCLI でデフォルトのビューのみのアプリを作成するので、Vue Router やVuex は使用しないものとします。    
 パッケージのインストールが完了したら試しに一度動かしてみましょう。    
 
 ```
@@ -291,6 +291,8 @@ static/css/**
 ```
 $ clasp push
 ```
+
+これでGAS の画面からデプロイすればOKです。
 
 ## Appendix
 
