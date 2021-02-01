@@ -1,0 +1,6 @@
+**/**
+static/**
+static/css/**
+!appsscript.json
+!Code.js
+!index.html
