@@ -1,9 +1,7 @@
 {
-  "timeZone": "Asia/Tokyo",
-  "webapp": {
-    "access": "DOMAIN",
-    "executeAs": "USER_ACCESSING"
+  "timeZone": "America/New_York",
+  "dependencies": {
   },
   "exceptionLogging": "STACKDRIVER",
-  "runtimeVersion": "V8",
+  "runtimeVersion": "V8"
 }
