@@ -14,7 +14,7 @@ module.exports = {
       .rule('images')
       .use('url-loader')
       .options({
-        esModule: false
+        esModule: false,
       });
     config.module
       .rule('media')
